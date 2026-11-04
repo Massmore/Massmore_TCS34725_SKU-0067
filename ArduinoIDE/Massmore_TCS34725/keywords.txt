@@ -1,0 +1,105 @@
+#######################################
+# Syntax Coloring Map — Massmore_TCS34725
+#######################################
+
+# Datatypes (KEYWORD1)
+Massmore_TCS34725	KEYWORD1
+RawData	KEYWORD1
+RGB8	KEYWORD1
+HSV	KEYWORD1
+LightData	KEYWORD1
+ErrorCode	KEYWORD1
+Variant	KEYWORD1
+Gain	KEYWORD1
+Persistence	KEYWORD1
+State	KEYWORD1
+CctMethod	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+isConnected	KEYWORD2
+powerOn	KEYWORD2
+powerOff	KEYWORD2
+enableRGBC	KEYWORD2
+getChipID	KEYWORD2
+getVariant	KEYWORD2
+verifyChipID	KEYWORD2
+getSerialNumber	KEYWORD2
+isGenuine	KEYWORD2
+selfTestRegisters	KEYWORD2
+measureCycleTimeUs	KEYWORD2
+selfTestInterrupt	KEYWORD2
+setIntegrationTime	KEYWORD2
+setIntegrationCycles	KEYWORD2
+setATIME	KEYWORD2
+getATIME	KEYWORD2
+getIntegrationCycles	KEYWORD2
+getIntegrationTimeMs	KEYWORD2
+getMaxCount	KEYWORD2
+setGain	KEYWORD2
+getGain	KEYWORD2
+getGainValue	KEYWORD2
+setWaitTime	KEYWORD2
+getWaitTimeMs	KEYWORD2
+setPersistence	KEYWORD2
+setInterruptThresholds	KEYWORD2
+enableInterrupt	KEYWORD2
+clearInterrupt	KEYWORD2
+getStatus	KEYWORD2
+isInterruptFlag	KEYWORD2
+isValid	KEYWORD2
+readRaw	KEYWORD2
+readLatestRaw	KEYWORD2
+readRawOneShot	KEYWORD2
+readClear	KEYWORD2
+readRed	KEYWORD2
+readGreen	KEYWORD2
+readBlue	KEYWORD2
+readRGB8	KEYWORD2
+readLux	KEYWORD2
+readColorTemperature	KEYWORD2
+startContinuous	KEYWORD2
+stopContinuous	KEYWORD2
+requestConversion	KEYWORD2
+update	KEYWORD2
+isDataReady	KEYWORD2
+getReadings	KEYWORD2
+getState	KEYWORD2
+autoRangeStep	KEYWORD2
+autoRange	KEYWORD2
+toRGB8	KEYWORD2
+toHSV	KEYWORD2
+calculateLux	KEYWORD2
+calculateColorTemperature	KEYWORD2
+estimateIR	KEYWORD2
+getSaturationLevel	KEYWORD2
+isSaturated	KEYWORD2
+calculateLight	KEYWORD2
+setGlassAttenuation	KEYWORD2
+setDeviceFactor	KEYWORD2
+setLuxCoefficients	KEYWORD2
+setCctCoefficients	KEYWORD2
+setDarkOffset	KEYWORD2
+setWhiteReference	KEYWORD2
+clearCalibration	KEYWORD2
+hasWhiteReference	KEYWORD2
+applyCalibration	KEYWORD2
+attachLED	KEYWORD2
+setLED	KEYWORD2
+lastError	KEYWORD2
+errorToString	KEYWORD2
+readRegister	KEYWORD2
+writeRegister	KEYWORD2
+dumpRegisters	KEYWORD2
+
+# Constants (LITERAL1)
+MASSMORE_TCS34725_VERSION	LITERAL1
+MASSMORE_TCS34725_ADDR_DEFAULT	LITERAL1
+MASSMORE_TCS34725_ADDR_ALT	LITERAL1
+MASSMORE_TCS34725_CAL_SCALE	LITERAL1
+attachLEDToINT	KEYWORD2
+getLED	KEYWORD2
+ledOn	KEYWORD2
+ledOff	KEYWORD2
+ledToggle	KEYWORD2
+detachLED	KEYWORD2

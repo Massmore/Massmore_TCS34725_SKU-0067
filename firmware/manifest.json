@@ -1,0 +1,15 @@
+{
+  "name": "Massmore TCS34725 SKU-0067 Factory Test",
+  "version": "1.0.0",
+  "home_assistant_domain": null,
+  "funding_url": "https://www.massmore.shop",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "bin/Massmore_TCS34725_FactoryTest_ESP32.bin", "offset": 0 }
+      ]
+    }
+  ]
+}

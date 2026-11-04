@@ -1,0 +1,29 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Build outputs
+*.hex
+*.bin
+*.elf
+*.map
+build/
+
+# เฟิร์มแวร์ Factory Test ที่ตั้งใจ commit (แฟลชผ่านเว็บ)
+!firmware/**/*.bin
+
+# macOS
+.DS_Store
+
+# Host test binary
+testrun
+*.o
+*.dSYM/
+
+# Datasheet (ลิขสิทธิ์ ams-OSRAM — ใช้ลิงก์ใน README แทน)
+docs/*.pdf

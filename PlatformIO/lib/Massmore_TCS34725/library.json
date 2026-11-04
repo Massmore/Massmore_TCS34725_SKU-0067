@@ -1,0 +1,14 @@
+{
+  "name": "Massmore_TCS34725",
+  "version": "1.0.0",
+  "description": "Dependency-free Arduino / ESP32 driver for the ams-OSRAM TCS34725 / TCS34727 RGBC color sensor (Massmore SKU-0067): atomic RGBC block read, blocking + non-blocking FSM API, DN40 lux / CCT with saturation detection, auto-range, dark / white calibration, RGB888 / HSV, interrupt + low-power wait, chip authenticity self-test. No dynamic allocation.",
+  "keywords": ["tcs34725", "tcs34727", "tcs3472", "ams", "osram", "color", "rgb", "lux", "cct", "sensor", "i2c", "esp32", "arduino", "massmore"],
+  "repository": { "type": "git", "url": "https://github.com/Massmore/Massmore_TCS34725_SKU-0067.git" },
+  "authors": [{ "name": "Massmore", "url": "https://www.massmore.shop", "maintainer": true }],
+  "license": "MIT",
+  "homepage": "https://www.massmore.shop",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "headers": ["Massmore_TCS34725.h"],
+  "build": { "srcDir": "src", "includeDir": "src" }
+}
